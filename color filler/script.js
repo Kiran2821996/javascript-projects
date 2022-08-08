@@ -19,10 +19,11 @@ btn1.addEventListener("click", () => {
     document.querySelector("button").style.backgroundColor = rndCol;
   }, 1000);
 
-  
+
   btn2.addEventListener("click",()=>{
     clearInterval(x) 
     document.body.style.backgroundColor = "white";
+    document.querySelector("span").innerText = "";
     document.querySelector("h2").innerHTML = `<h5>GOT tired!!!&#128512</h5>`;
     document.querySelector("button").style.backgroundColor = "rgb(240,240,240)";
 

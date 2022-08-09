@@ -1,0 +1,66 @@
+.taskelements{
+    display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.container{
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(44, 46, 46);
+    width: 200px;
+    border-radius: 5px;
+    color: white;
+    font-size: x-large;
+}
+.container .inputt1{
+    text-align: center;
+    width: 100px;
+}
+h1,form{
+    text-align: center;
+}
+body{
+    text-align: center;
+    background-image: url(./National_Highways_Authority_of_India_logo.svg.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    background-color: rgb(104, 100, 100);
+    background-size:cover ;
+    font-size: xx-large;
+
+}
+#addBtn{
+    background-color: black;
+    color: white;
+}
+input{
+    border-radius: 5px;
+    font-size: x-large;
+}
+
+button{
+    
+    border: none;
+    margin: 10px;
+    width: 25px;
+    height:25px;
+    font-weight: bolder;
+    border-radius: 3px;
+}
+button:hover{
+    cursor: pointer;
+    border: none;
+    margin: 10px;
+   
+    font-weight: bolder;
+    border-radius: 3px;
+    background-color: black;
+    color: white;
+}
+/* .display{
+    font-size: xx-large;
+} */

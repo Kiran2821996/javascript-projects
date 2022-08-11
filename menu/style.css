@@ -1,0 +1,72 @@
+body {
+  background-color: black;
+  color: white;
+}
+.al {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  background-color: burlywood;
+  border-radius: 50px;
+}
+.breakfast,
+.lunch,
+.dinner {
+  text-align: center;
+  margin: 50px;
+}
+.dinn,
+.luu,
+.brr {
+  margin: 20px;
+}
+.cl {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.buttons {
+  text-align: center;
+  margin: auto;
+}
+h3 {
+  margin: 10px;
+  font-size: xx-large;
+  font-style: italic;
+  font-weight: bolder;
+}
+img {
+  margin: 10px;
+}
+p {
+  margin: 10px;
+  font-weight: bold;
+  font-size: large;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+button {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  background-color: azure;
+}
+button:hover {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  background-color: black;
+  color: antiquewhite;
+  cursor: pointer;
+}
+h2 {
+  background-color: burlywood;
+  font-size: large;
+  font-weight: bolder;
+  border-radius: 100px;
+}
+button h1 {
+  display: flex;
+  padding-top: 25px;
+  margin-left: 150%;
+  font-size: xx-large;
+  font-weight: bolder;
+}

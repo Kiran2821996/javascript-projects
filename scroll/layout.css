@@ -1,0 +1,155 @@
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.general <<<<<<<<<<<<<<<<<<<<<<*/
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+body{
+    background-image:linear-gradient(to right, rgb(4,8,9) , rgb(44,88,88));
+    color: white;
+}
+
+span{
+    font-style: italic;
+    font-weight: bolder;
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> header<<<<<<<<<<<<<<<<<<<<< */
+.header{
+   
+    padding: 3%;
+    margin: 0 auto;
+    font-size: xx-large;
+    font-weight: bolder;
+   
+
+}
+.header-r{
+   display: flex;
+   align-items: center;
+  
+}
+.header-r img{
+    padding-right: 15px;
+   
+ }
+.header a{
+    text-decoration: none;
+    color: white;
+}
+.mbtn{
+    font-style: italic;
+    margin-right: 4rem;
+}
+.mbtn:hover{
+    color:rgb(102,204,204) ;
+    text-decoration: underline white;
+    margin-right: 4rem;
+    
+}
+.lbtn{
+    margin-right: 3rem;
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>. main<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+.section-one,.section-three{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 2%;
+    margin:0 auto;
+   
+}
+.section1-left,.section2-left,.section3-left,.section4-left{
+    width: 50%;
+}
+.section1-left>h3,.section3-left>h3{
+      text-align: end;
+      font-size: 950%;
+}
+.section1-left>p,.section3-left>p{
+    padding: 2rem;
+    text-align: end;
+    font-size: xx-large;
+    
+}
+.section1-right{
+   
+    width: 50%;
+        height: 1095px;
+        background: url("./images/image1.png") no-repeat ;
+        margin: 50px;
+        transition: 1s;
+
+}
+
+.section1-right:hover{
+   
+    background: url(./images/image2.png);
+  
+}
+.section-two,.section-four,.footer{
+    
+    padding: 2%;
+    margin:0 auto;
+  
+}
+
+.section2-right{
+   
+    width: 50%;
+        height: 1095px;
+        background: url("./images/image3.png") ;
+        margin: 50px;
+        transition: 1s;
+
+}
+.section2-right:hover{
+   
+    background: url(./images/image4.png);
+   
+}
+.section2-left>h3,.section4-left>h3{
+      text-align: start;
+      font-size: 950%;
+}
+.section2-left>p,.section4-left>p{
+    padding: 2rem;
+    text-align: start;
+    font-size: xx-large;
+}
+.section3-right{
+   
+    width: 50%;
+        height: 1095px;
+        background: url("./images/image5.png") ;
+        margin: 50px;
+        transition: 1s;
+
+}
+.section3-right:hover{
+   
+    background: url("./images/image6.png");
+   
+}
+.section4-right{
+   
+    width: 50%;
+        height: 1095px;
+        background: url("./images/image7.png") ;
+        margin: 50px;
+        transition: 1s;
+
+}
+.section4-right:hover{
+   
+    background: url("./images/image8.png");
+   
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> footer<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+.footer p{
+    font-size: larger;
+}
+
+

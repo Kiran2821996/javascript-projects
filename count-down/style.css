@@ -1,0 +1,34 @@
+body {
+  background-image: url(./Trumpwallpapers\ -\ Rocket\ Wallpapers.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.coming-soon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+   
+}
+.countdown{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    line-height: 70px;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+.containerDay,.containerHour,.containerMin,.containerSec{
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50px;
+    background-color: rgb(42, 41, 41);
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+}

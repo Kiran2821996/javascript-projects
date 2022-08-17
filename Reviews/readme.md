@@ -1,2 +1,1 @@
-    <h1>output</h1>
-    <img src="./images/Screenshot (100).png" alt="" srcset="">
+![Screenshot (114)](https://user-images.githubusercontent.com/101187415/185191943-283c6dc3-c054-4704-894a-d0601298945f.png)
